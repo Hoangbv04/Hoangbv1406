@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lesson02</title>
+</head>
+<body>
+    <!-- HTML Headings -->
+    <h1>Text 1</h1>
+    <h2>Text 2</h2>
+    <h3>Text 3</h3>
+    <h4>Text 4</h4>
+    <h5>Text 5</h5>
+    <h6>Text 6</h6>
+
+    <!-- HTML Paragraphs -->
+    <p>Đây là một đoạn văn bản.</p>
+
+    <!-- HTML Lists -->
+    <ul>
+        <li>Nội dung 1</li>
+        <li>Nội dung 2</li>
+    </ul>
+    <ol>
+        <li>Nội dung 1</li>
+        <li>Nội dung 2</li>
+    </ol>
+
+    <!-- HTML Text Formatting -->
+    <b>Nội dung được in đậm.</b>
+    <i>Nội dung được in nghiêng.</i>
+    <u>Nội dung được gạch dưới chân.</u>
+    <strong>Nội dung được nhấn mạnh và in đậm.</strong>
+    <em>Nội dung được nhấn mạnh và in nghiêng.</em>
+    <br>
+
+    <!-- HTML Links and HTML Images -->
+    <a href="https://titv.vn/">Click here!</a>
+    <img src="https://titv.vn/wp-content/uploads/2022/08/Screenshot-2023-01-29-230321.png" alt="Logo TITV">
+    <hr>
+
+    <!-- HTML Tables -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th width="20%">STT</th>
+                <th width="55%">Họ Và Tên</th>
+                <th width="25%">Điểm TB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Văn B</td>
+                <td rowspan="2">10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nguyễn Văn C</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!-- HTML Forms -->
+    <form action="">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="idEmail"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="idPassword"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+                </tr>
+                <tr>
+                    <td>Họ Và Tên:</td>
+                    <td><input type="text" name="hoVaTen" id="idHoVaTen"></td>
+                </tr>
+                <tr>
+                    <td>Giới Tính:</td>
+                    <td>
+                        <input type="radio" name="gioiTinh" id="idGioiTinhM" value="M">
+                        <label for="idGioiTinhM">Nam</label>
+                        <input type="radio" name="gioiTinh" id="idGioiTinhF" value="F">
+                        <label for="idGioiTinhF">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày Sinh:</td>
+                    <td><input type="date" name="ngaySinh" id="idNgaySinh"></td>
+                </tr>
+                <tr>
+                    <td>Số Điện Thoại:</td>
+                    <td><input type="tel" name="soDienThoai" id="idSoDienThoai"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>ĐỊA CHỈ</b></td>
+                </tr>
+                <tr>
+                    <td>Quốc Gia:</td>
+                    <td>
+                        <select name="quocGia" id="idQuocGia">
+                            <option value="VN">Việt Nam</option>
+                            <option value="VN">Việt Nam</option>
+                            <option value="VN">Việt Nam</option>
+                            <option value="VN">Việt Nam</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Thành Phố:</td>
+                    <td>
+                        <select name="thanhPho" id="idThanhPho">
+                            <option value="HN">Hà Nội</option>
+                            <option value="HN">Hà Nội</option>
+                            <option value="HN">Hà Nội</option>
+                            <option value="HN">Hà Nội</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa Chỉ Nhà:</td>
+                    <td><textarea rows="5" cols="" name="diaChi" id="idDiaChi"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Đăng Ký">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br>
+
+</body>
+</html>
